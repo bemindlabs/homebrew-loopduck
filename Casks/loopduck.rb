@@ -1,6 +1,6 @@
 cask "loopduck" do
   version "0.1.3"
-  sha256 "742ef2bb77f83add0462fbee5bbe84b412d560bed444205095e6bae50b2bc879"
+  sha256 "6e3d4789a880ceb651e34d87a66d0256a871fb69f702a98506d98e48f9b2db05"
 
   url "https://buildonclaw.cloud/products/loopduck/release/LoopDuck_#{version}_aarch64.dmg"
   name "LoopDuck"
