@@ -11,6 +11,12 @@ cask "loopduck" do
 
   app "LoopDuck.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/LoopDuck.app"],
+                   sudo: true
+  end
+
   zap trash: [
     "~/Library/Application Support/com.bemindlabs.loopduck",
     "~/Library/Caches/com.bemindlabs.loopduck",
