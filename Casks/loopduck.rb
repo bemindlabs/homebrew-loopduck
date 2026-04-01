@@ -1,8 +1,8 @@
 cask "loopduck" do
-  version "0.1.4"
-  sha256 "9ba47b26278f6f319a4ade8ff8c9a8c2223f1c434c972daf6d39ef23c74cf4da"
+  version "0.2.0"
+  sha256 "c1c8c77ce76c3a1d90efc4d0faa0fa64a123321dde19c431c44fce472248bbc7"
 
-  url "https://buildonclaw.cloud/products/loopduck/release/LoopDuck_#{version}_aarch64.dmg"
+  url "https://github.com/bemindlabs/loopduck-releases/releases/download/v#{version}/LoopDuck_#{version}_aarch64.dmg"
   name "LoopDuck"
   desc "AI Coding workflow desktop app"
   homepage "https://buildonclaw.cloud/products/loopduck"
