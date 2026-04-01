@@ -13,8 +13,8 @@ cask "loopduck" do
 
   postflight do
     system_command "/usr/bin/xattr",
-         args: ["-cr", "#{appdir}/LoopDuck.app"],
-         sudo: true
+                    args: ["-cr", "#{appdir}/LoopDuck.app"],
+                    sudo: true
   end
 
   zap trash: [
