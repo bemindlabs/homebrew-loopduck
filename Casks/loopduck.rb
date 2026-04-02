@@ -1,9 +1,8 @@
 cask "loopduck" do
   version "2026.4.2"
-  sha256 "917255c8d6772d12baaedd5cc4674f442c5952afc382e53b3ee94b0d8efb2d78"
+  sha256 "ab2f8d37bb56cbca69f3a8413de337423aa141679fe6ec7448898f5c6aa05dd4"
 
-  url "https://github.com/bemindlabs/loopduck-releases/releases/download/v#{version}/LoopDuck_#{version}_aarch64.dmg",
-      verified: "github.com/bemindlabs/loopduck-releases/"
+  url "https://github.com/bemindlabs/loopduck-releases/releases/download/v#{version}/LoopDuck_#{version}_aarch64.dmg"
   name "LoopDuck"
   desc "AI Coding workflow desktop app"
   homepage "https://buildonclaw.cloud/products/loopduck"
@@ -14,8 +13,8 @@ cask "loopduck" do
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/LoopDuck.app"],
-                   sudo: true
+         args: ["-cr", "#{appdir}/LoopDuck.app"],
+         sudo: true
   end
 
   zap trash: [
