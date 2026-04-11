@@ -1,6 +1,6 @@
 cask "loopduck" do
-  version "2026.4.8"
-  sha256 "6e846f79e459a6e7e8173e62985f78e31bac5ec4f0f751cd0d569574923fd557"
+  version "2026.4.11"
+  sha256 "d3a934c53b7eea33735fa7792ff72d0a1c9e37ee112c255d853caa15f24e1937"
 
   url "https://github.com/bemindlabs/loopduck-releases/releases/download/v#{version}/LoopDuck_#{version}_aarch64.dmg"
   name "LoopDuck"
